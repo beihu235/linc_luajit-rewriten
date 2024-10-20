@@ -30,11 +30,11 @@
 
 #include "lua.h"
 
-#define LUAJIT_VERSION		"LuaJIT 2.1.1727870382"
-#define LUAJIT_VERSION_NUM	20199  /* Deprecated. */
-#define LUAJIT_VERSION_SYM	luaJIT_version_2_1_1727870382
-#define LUAJIT_COPYRIGHT	"Copyright (C) 2005-2023 Mike Pall"
-#define LUAJIT_URL		"https://luajit.org/"
+#define LUAJIT_VERSION		"LuaJIT 2.1.0-beta2"
+#define LUAJIT_VERSION_NUM	20100  /* Version 2.1.0 = 02.01.00. */
+#define LUAJIT_VERSION_SYM	luaJIT_version_2_1_0_beta2
+#define LUAJIT_COPYRIGHT	"Copyright (C) 2005-2016 Mike Pall"
+#define LUAJIT_URL		"http://luajit.org/"
 
 /* Modes for luaJIT_setmode. */
 #define LUAJIT_MODE_MASK	0x00ff
